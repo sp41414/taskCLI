@@ -2,6 +2,17 @@
 
 a simple command-line interface for managing tasks
 
+## table of contents
+
+- [Credits](#made-with-instructions-from)
+- [Features](#features)
+- [Usage](#usage)
+- [Info](#task-status-options)
+
+## made with instructions from
+
+[roadmap.sh](https://roadmap.sh/projects/task-tracker)
+
 ## features
 
 - add new tasks with names and descriptions
