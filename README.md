@@ -1,24 +1,42 @@
-# Task CLI Manager
+# task cli
 
-A simple command-line task management application built with Python that helps you track and organize your tasks.
+a simple command-line interface for managing tasks
 
-## Features
+## features
 
-- add, update, and delete tasks
-- track task statuses like (todo, in progress, done)
-- view task creation and update timestamps
-- list tasks with status filters
-- json based persistent storage
+- add new tasks with names and descriptions
+- update task details (name, description, status)
+- delete tasks
+- list tasks by status
+- persistent storage using json
 
-## requirements
+## usage
 
-- python 3.x
-
-## installation
-
-1. click on the main.py file
-2. open your terminal and run:
+run the program:
 
 ```bash
-cd '(path to the download here)'
+python main.py
 ```
+
+available commands:
+
+1. add task
+2. update description
+3. update name
+4. update status
+5. delete task
+6. list all tasks
+7. list todo tasks
+8. list in-progress tasks
+9. list done tasks
+10. exit
+
+## task status options
+
+- todo
+- in progress
+- done
+
+## data storage
+
+tasks are stored in a local `tasks.json` file
